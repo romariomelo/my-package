@@ -1,32 +1,29 @@
 {
   "name": "@romariomelo/my-package",
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.6",
+  "license": "UNLICENSED",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "engines": {
-    "node": ">=21"
-  },
-  "engineStrict": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/romariomelo/my-package.git"
-  },
-  "publishConfig": {
-    "@romariomelo:registry": "https://npm.pkg.github.com"
-  },
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
   ],
+  "engineStrict": true,
+  "engines": {
+    "node": ">=21"
+  },
+  "publishConfig": {
+    "@romariomelo:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "ts-node src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romariomelo/my-package.git"
+  },
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
