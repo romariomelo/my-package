@@ -1,6 +1,6 @@
 {
   "name": "@romariomelo/my-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "engines": {
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/romariomelo/my-package.git"
+  },
+  "publishConfig": {
+    "@romariomelo:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
