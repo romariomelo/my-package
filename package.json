@@ -1,8 +1,9 @@
 {
   "name": "@romariomelo/my-package",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "engines": {
     "node": ">=21"
   },
@@ -14,6 +15,10 @@
   "publishConfig": {
     "@romariomelo:registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
